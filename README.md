@@ -4,7 +4,7 @@ Hier findest du die offiziellen Windows-Installer und Update-Dateien für Clip B
 
 ## Download
 
-**[Clip Battle 4.3.2 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.3.2/Clip-Battle-Setup-4.3.2.exe)**
+**[Clip Battle 4.4.0 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.4.0/Clip-Battle-Setup-4.4.0.exe)**
 
 [Neueste Veröffentlichung](https://github.com/goldovator-hue/clip-battle-releases/releases/latest) · [Alle Versionen](https://github.com/goldovator-hue/clip-battle-releases/releases)
 
@@ -17,6 +17,13 @@ Bei einer neueren Veröffentlichung lade die Datei `Clip-Battle-Setup-X.Y.Z.exe`
 - **Unbegrenzte !clip-Einsendungen** oder ein eigenes Stundenlimit. Bestehende Limits bleiben erhalten; unter **Community** die gewünschte Option wählen und speichern.
 - Offene Vorschläge bleiben vollständig erhalten. Die Moderation zeigt 25 Vorschläge pro Seite.
 - Freiwillige, einmalige Unterstützung **ab 5 €** mit frei wählbarem höheren Betrag. Die Erinnerung lässt sich jederzeit ohne Zahlung ausschalten.
+
+## Neu in 4.4.0
+
+- Freigegebene `!clip`-Einsendungen zeigen jetzt ihren tatsächlichen lokalen Medienstatus. Für eine sendefähige Community-Einsendung wählst du unter **Community** den Clip und verknüpfst in der **Bibliothek** eine eigene MP4-/WebM-Datei; keine fremden Twitch-Videos werden automatisch heruntergeladen.
+- Zugriffs-, Dateityp- und Duplikatprüfungen bei der Zuordnung, persistente Verknüpfung nach Neustart.
+- Weniger unnötige Verwaltungsabfragen, wenn das Studiofenster im Hintergrund liegt.
+- Installer und Updates werden trotz vollem GitHub-Actions-Artefaktspeicher kostenneutral aus dem geprüften Windows-Build veröffentlicht.
 
 ## Installation und Updates
 
