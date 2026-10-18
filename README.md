@@ -4,7 +4,7 @@ Hier findest du die offiziellen Windows-Installer und Update-Dateien für Clip B
 
 ## Download
 
-**[Clip Battle 4.4.0 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.4.0/Clip-Battle-Setup-4.4.0.exe)**
+**[Clip Battle 4.4.1 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.4.1/Clip-Battle-Setup-4.4.1.exe)**
 
 [Neueste Veröffentlichung](https://github.com/goldovator-hue/clip-battle-releases/releases/latest) · [Alle Versionen](https://github.com/goldovator-hue/clip-battle-releases/releases)
 
@@ -17,6 +17,12 @@ Bei einer neueren Veröffentlichung lade die Datei `Clip-Battle-Setup-X.Y.Z.exe`
 - **Unbegrenzte !clip-Einsendungen** oder ein eigenes Stundenlimit. Bestehende Limits bleiben erhalten; unter **Community** die gewünschte Option wählen und speichern.
 - Offene Vorschläge bleiben vollständig erhalten. Die Moderation zeigt 25 Vorschläge pro Seite.
 - Freiwillige, einmalige Unterstützung **ab 5 €** mit frei wählbarem höheren Betrag. Die Erinnerung lässt sich jederzeit ohne Zahlung ausschalten.
+
+## Neu in 4.4.1
+
+- Faire, intelligentere Clip-Auswahl mit Wiederholungsschutz und Rücksicht auf Clip-Laufzeit, Kategorie und bisherige Show-Einsätze.
+- Gleichzeitige Verwaltungsdatenabfragen werden gebündelt, ohne alte Daten nach dem Speichern zu zeigen.
+- Unveränderte OBS-Ausgabe, lokale Daten und automatische Update-Funktion.
 
 ## Neu in 4.4.0
 
