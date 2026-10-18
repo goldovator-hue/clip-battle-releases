@@ -4,7 +4,7 @@ Hier findest du die offiziellen Windows-Installer und Update-Dateien für Clip B
 
 ## Download
 
-**[Clip Battle 4.4.1 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.4.1/Clip-Battle-Setup-4.4.1.exe)**
+**[Clip Battle 4.4.3 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.4.3/Clip-Battle-Setup-4.4.3.exe)**
 
 [Neueste Veröffentlichung](https://github.com/goldovator-hue/clip-battle-releases/releases/latest) · [Alle Versionen](https://github.com/goldovator-hue/clip-battle-releases/releases)
 
