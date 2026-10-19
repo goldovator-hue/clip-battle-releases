@@ -4,7 +4,7 @@ Hier findest du die offiziellen Windows-Installer und Update-Dateien für Clip B
 
 ## Download
 
-**[Clip Battle 4.4.3 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.4.3/Clip-Battle-Setup-4.4.3.exe)**
+**[Clip Battle 4.4.5 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.4.5/Clip-Battle-Setup-4.4.5.exe)**
 
 [Neueste Veröffentlichung](https://github.com/goldovator-hue/clip-battle-releases/releases/latest) · [Alle Versionen](https://github.com/goldovator-hue/clip-battle-releases/releases)
 
@@ -47,3 +47,10 @@ Dieser erste Wechsel erfolgt einmalig über den Installer. Danach kann Clip Batt
 ## Prüfsummen
 
 Zu jeder Veröffentlichung gehört `checksums-sha256.txt`. Damit kannst du die SHA-256-Prüfsumme des heruntergeladenen Installers vergleichen. `latest.yml` und die `.blockmap`-Datei werden von der automatischen Update-Funktion verwendet.
+## Neu in 4.4.5
+
+- Fehler beim Upload eigener MP4-/WebM-Videos zu Twitch-Links behoben: keine fälschliche Prüfung auf eine Community-Einsendung mehr.
+- Zusätzliche Twitch-eigene Medienhosts mit weiterhin strenger HTTPS- und Host-Prüfung zugelassen.
+- Neuer Windows-Regressionstest für Twitch-Upload, Wiederholung und ungültige Einsendungen.
+- Falls ein offizieller Download weiterhin abgelehnt wird: Bitte nur den im Fehler angezeigten **Servernamen und Fehlercode**, keinen signierten Downloadlink mitteilen.
+
