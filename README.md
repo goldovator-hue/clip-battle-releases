@@ -1,10 +1,17 @@
 # Clip Battle – offizieller Windows-Download
 
-**Aktuelle Version: 5.0.1 · 20. Oktober 2026**
+**Aktuelle Version: 5.0.2 · 20. Oktober 2026**
 
-**[Clip Battle 5.0.1 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v5.0.1/Clip-Battle-Setup-5.0.1.exe)**
+**[Clip Battle 5.0.2 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v5.0.2/Clip-Battle-Setup-5.0.2.exe)**
 
 [Neueste Veröffentlichung](https://github.com/goldovator-hue/clip-battle-releases/releases/latest) · [Release 5.0.1 mit allen Dateien](https://github.com/goldovator-hue/clip-battle-releases/releases/tag/v5.0.1) · [Versionsarchiv](https://github.com/goldovator-hue/clip-battle-releases/releases)
+
+## Neu in Version 5.0.2
+
+- **Eigener Speicherort:** In der Windows-App unter **Einstellungen → Programm & Daten → Clip-Bibliothek speichern** eine private Festplatte und einen Ordner auswählen.
+- **Bibliothek sicher übernehmen:** Vorhandene Medien, Vorschaubilder, Bibliothek, Backups und Einstellungen werden erst bei beendeter Show kopiert und mittels SHA-256 geprüft. Der alte Ordner bleibt als Sicherheitskopie erhalten.
+- **Auch nach Updates:** Die neue Festplatte wird dauerhaft gemerkt. Ist sie nicht angeschlossen, wird keine leere Ersatzbibliothek angelegt.
+- **Hinweis:** Der ausgewählte Datenordner enthält auch Einstellungen und lokale Zugangsdaten. Verwende eine private, dauerhaft angeschlossene Festplatte.
 
 ## Neu in Version 5.0.1
 
