@@ -1,56 +1,35 @@
-# Clip Battle – Windows-Downloads
+# Clip Battle – offizieller Windows-Download
 
-Hier findest du die offiziellen Windows-Installer und Update-Dateien für Clip Battle von Goldovator.
+**Aktuelle Version: 5.0.1 · 20. Oktober 2026**
 
-## Download
+**[Clip Battle 5.0.1 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v5.0.1/Clip-Battle-Setup-5.0.1.exe)**
 
-**[Clip Battle 4.4.5 für Windows herunterladen](https://github.com/goldovator-hue/clip-battle-releases/releases/download/v4.4.5/Clip-Battle-Setup-4.4.5.exe)**
+[Neueste Veröffentlichung](https://github.com/goldovator-hue/clip-battle-releases/releases/latest) · [Release 5.0.1 mit allen Dateien](https://github.com/goldovator-hue/clip-battle-releases/releases/tag/v5.0.1) · [Versionsarchiv](https://github.com/goldovator-hue/clip-battle-releases/releases)
 
-[Neueste Veröffentlichung](https://github.com/goldovator-hue/clip-battle-releases/releases/latest) · [Alle Versionen](https://github.com/goldovator-hue/clip-battle-releases/releases)
+## Neu in Version 5.0.1
 
-Bei einer neueren Veröffentlichung lade die Datei `Clip-Battle-Setup-X.Y.Z.exe` herunter.
+- **Voting-Overlay:** Die runde goldene VS-Medaille sitzt mittig zwischen den beiden Clips.
+- **Chat-Abstimmung:** Neue, übersichtlichere Voting-Box mit gut lesbaren Befehlen **!A** und **!B**.
+- **Clip-Titel und Anzeigen:** Mehr Platz für längere Clip-Namen und optimierte Darstellung in OBS und der Desktop-Vorschau.
+- **Qualitätssicherung:** Node-, Chromium-, Windows- und Installer-Tests erfolgreich abgeschlossen.
+- **Windows-Codesignatur:** Installer und Programmdatei wurden für diese Veröffentlichung kryptografisch geprüft. Die Signatur ist selbstsigniert; Windows/SmartScreen können weiterhin eine Warnung über den unbekannten Herausgeber anzeigen.
 
-## Neu in 4.3.2
+## Installation und Auto-Update
 
-- Überarbeitete Studio-Oberfläche mit seitlicher Navigation, einheitlichen Formularen und einer ruhigen Graphit-/Gold-Gestaltung.
-- Ein klarer Updatebereich unter **Einstellungen → Updates**. Die Einrichtungsliste befindet sich unter **Verbindungen**.
-- **Unbegrenzte !clip-Einsendungen** oder ein eigenes Stundenlimit. Bestehende Limits bleiben erhalten; unter **Community** die gewünschte Option wählen und speichern.
-- Offene Vorschläge bleiben vollständig erhalten. Die Moderation zeigt 25 Vorschläge pro Seite.
-- Freiwillige, einmalige Unterstützung **ab 5 €** mit frei wählbarem höheren Betrag. Die Erinnerung lässt sich jederzeit ohne Zahlung ausschalten.
+Clip Battle kann veröffentlichte Updates über den öffentlichen Release-Kanal erkennen, ohne dass ein GitHub-Konto oder GitHub-Token benötigt wird.
 
-## Neu in 4.4.1
+Für eine manuelle Installation oder Aktualisierung:
 
-- Faire, intelligentere Clip-Auswahl mit Wiederholungsschutz und Rücksicht auf Clip-Laufzeit, Kategorie und bisherige Show-Einsätze.
-- Gleichzeitige Verwaltungsdatenabfragen werden gebündelt, ohne alte Daten nach dem Speichern zu zeigen.
-- Unveränderte OBS-Ausgabe, lokale Daten und automatische Update-Funktion.
-
-## Neu in 4.4.0
-
-- Freigegebene `!clip`-Einsendungen zeigen jetzt ihren tatsächlichen lokalen Medienstatus. Für eine sendefähige Community-Einsendung wählst du unter **Community** den Clip und verknüpfst in der **Bibliothek** eine eigene MP4-/WebM-Datei; keine fremden Twitch-Videos werden automatisch heruntergeladen.
-- Zugriffs-, Dateityp- und Duplikatprüfungen bei der Zuordnung, persistente Verknüpfung nach Neustart.
-- Weniger unnötige Verwaltungsabfragen, wenn das Studiofenster im Hintergrund liegt.
-- Installer und Updates werden trotz vollem GitHub-Actions-Artefaktspeicher kostenneutral aus dem geprüften Windows-Build veröffentlicht.
-
-## Installation und Updates
-
-Ab Version 4.3.1 prüft und lädt Clip Battle Updates über diesen öffentlichen Downloadbereich. Dafür brauchst du weder ein GitHub-Konto noch einen GitHub-Token.
-
-Für den ersten Wechsel von Version 4.3.0 oder älter:
-
-1. Beende die laufende Show und erstelle in Clip Battle eine vollständige Datensicherung.
+1. Beende zuerst eine laufende Show und erstelle ein vollständiges Backup deiner lokalen Clip-Battle-Daten.
 2. Schließe Clip Battle vollständig.
-3. Führe den neuen Installer über deiner bestehenden Installation aus.
-4. Starte Clip Battle und prüfe im Programm auf Updates.
+3. Führe **Clip-Battle-Setup-5.0.1.exe** aus und aktualisiere damit deine bestehende Installation.
+4. Prüfe danach unter **Einstellungen → Updates** die installierte Version.
 
-Dieser erste Wechsel erfolgt einmalig über den Installer. Danach kann Clip Battle weitere veröffentlichte Versionen über die integrierte Update-Funktion beziehen. Die Installation eines Updates erfordert deine Bestätigung; während einer laufenden Show ist sie gesperrt.
+Während einer laufenden Show soll das Programm keine automatische Update-Installation ausführen. Vorhandene OBS-/Twitch-Einstellungen und die lokale Clip-Bibliothek bleiben beim regulären Update erhalten.
 
-## Prüfsummen
+## Prüfsummen und Update-Dateien
 
-Zu jeder Veröffentlichung gehört `checksums-sha256.txt`. Damit kannst du die SHA-256-Prüfsumme des heruntergeladenen Installers vergleichen. `latest.yml` und die `.blockmap`-Datei werden von der automatischen Update-Funktion verwendet.
-## Neu in 4.4.5
+Zu dieser Version gehören der Windows-Installer, `Clip-Battle-Setup-5.0.1.exe.blockmap`, `latest.yml` und `checksums-sha256.txt`. Die Prüfsummendatei ermöglicht einen unabhängigen SHA-256-Vergleich des Installers.
 
-- Fehler beim Upload eigener MP4-/WebM-Videos zu Twitch-Links behoben: keine fälschliche Prüfung auf eine Community-Einsendung mehr.
-- Zusätzliche Twitch-eigene Medienhosts mit weiterhin strenger HTTPS- und Host-Prüfung zugelassen.
-- Neuer Windows-Regressionstest für Twitch-Upload, Wiederholung und ungültige Einsendungen.
-- Falls ein offizieller Download weiterhin abgelehnt wird: Bitte nur den im Fehler angezeigten **Servernamen und Fehlercode**, keinen signierten Downloadlink mitteilen.
+Ältere Versionen und ihre Versionshinweise findest du im [Versionsarchiv](https://github.com/goldovator-hue/clip-battle-releases/releases).
 
